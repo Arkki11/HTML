@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="laatikko.css">
+  <style>
+  </style>
+ </head>
+ <body>
+
+  <div class="header">
+     <h3> HTML5&CSS tehtävät 1 - 6 </h3>
+   <div class="center">
+	<div class="pagination">
+	<a href="sivu6.html">&laquo;</a>
+	<a href="index.html" class="active">1</a>
+	<a href="sivu1.html">2</a>
+	<a href="sivu2.html">3</a>
+	<a href="sivu3.html">4</a>
+	<a href="sivu4.html">5</a>
+	<a href="sivu5.html">6</a>
+	<a href="sivu6.html">7</a>
+	<a href="sivu1.html">&raquo;</a>
+	</div>
+   </div>
+  </div>
+	
+   <div class="row">
+	
+    <div class="col-3 col-s-3 menu">
+      <ul>
+       <a href="index.html"><li> Tehtävä 1 - 6 </li></a>
+       <a href="sivu1.html"><li> Tehtävä 7 - 12 </li></a>
+       <a href="sivu2.html"><li> Tehtävä 13 - 18 </li></a>
+       <a href="sivu3.html"><li> Tehtävä 19 - 24 </li></a>
+	   <a href="sivu4.html"><li> Tehtävä 25 - 30 </li></a>
+       <a href="sivu5.html"><li> Tehtävä 31 - 36 </li></a>
+	   <a href="sivu6.html"><li> Tehtävä 37 - 42 </li></a>
+      </ul>
+    </div>
+	
+   
+
+    <div class="col-9 col-s-9">
+<!------------------------------------------------------------------- TEHTÄVÄ 1 ------------------------------------------------------------------------>
+	  <!-- TEHTÄVÄ 1 NÄKYVILLE -->
+      <h3> Tehtävä 1 </h3>
+      <p> (& LT ) pienempi kuin ja (& GT ) suurempi kuin. </p>
+
+	  <!-- TEHTÄVÄ 1 KOODAUS ESILLE -->	  
+      <div class="koodi varjo"><pre>
+<b> CSS-ohjeet: </b>
+
+	.kirsikankukka{
+	   width: 30%;
+	   box-shadow: 15px 15px 7px grey;
+	}
+	.kirsikankukka:hover{
+	   box-shadow: 7px 7px 7px grey;
+	}
+	.kirsikankukka:active{
+	   box-shadow: 7px 7px 7px red;
+	}
+	
+<b> HTML liittäminen: </b>
+
+   &LTimg class="kirsikankukka" src="kirsikankukka".jpg>
+
+	  </pre></div>
+
+<!-- TEHTÄVÄ 1 ESIIN WWW SIVULLA-->
+ <img class="kirsikankukka" src="kirsikankukka.jpg">
+<!------------------------------------------------------------------- TEHTÄVÄ 2 ------------------------------------------------------------------------>
+	  
+	  <!-- TEHTÄVÄ 2 NÄKYVILLE -->
+	  <h3> Tehtävä 2 </h3>
+      <p> (& LT ) pienempi kuin ja (& GT ) suurempi kuin. </p>
+		  
+	  <!-- TEHTÄVÄ 2 KOODAUS ESILLE -->	  
+      <div class="koodi varjo"><pre> 
+	<b> CSS-ohjeet </b>
+	
+	.laatikko {
+	 width: 60%;
+	 padding: 10px;
+	 margin: 10px;
+	 }
+	 .Ttausta1 {
+	 background-color: black;
+	 }
+	 .Vtausta1 {
+	 background-color: lightgrey
+	 }
+	 .Vtausta2 {
+	 background-color: white;
+	 }
+	 .Vteksti {
+	 color: rgb(255, 255, 255);
+	 }
+	 .Tteksti1 {
+	 color: rgb(99, 0, 99);
+	 }
+	 .Tteksti2 {
+	 color: rgb(127, 0, 0);
+	 }
+	 .variA {
+	 border: 2px solid black;
+	 }
+	 .variB {
+	 border: 2px solid red;
+	 }
+	 .variC {
+	 border: 2px solid purple;
+	 }
+	 
+	 <b> HTML liittäminen </b>
+	
+	 &LTdiv class="laatikko Ttausta1 Vteksti variC">
+	 &LTh3> Laatikko 1 &LT/h3>
+	 &LTp> Ut enim ad minim &LT/p>
+	 &LT/div>
+	 &LTdiv class="laatikko Vtausta1 Tteksti1 variB">
+	 &LTh3> Laatikko 2 &LT/h3>
+	 &LTp> veniam quis, &LT/p>
+	 &LT/div>
+	 &LTdiv class="laatikko Vtausta2 Tteksti2 variA">
+	 &LTh3> Laatikko 3 &LT/h3>
+	 &LTp> nostrud exercitation &LT/p>
+	 &LT/div>
+	  </pre></div>
+
+<!-- TEHTÄVÄ 2 ESIIN WWW SIVULLA-->
+	<div class="laatikko Ttausta1 Vteksti variC">
+	<h3> Laatikko 1 </h3>
+	<p> Ut enim ad minim </p>
+	</div>
+	<div class="laatikko Vtausta1 Tteksti1 variB">
+	<h3> Laatikko 2 </h3>
+	<p> veniam quis, </p>
+	</div>
+	<div class="laatikko Vtausta2 Tteksti2 variA">
+	<h3> Laatikko 3 </h3>
+	<p> nostrud exercitation </p>
+	</div>
+<!------------------------------------------------------------------- TEHTÄVÄ 3 ------------------------------------------------------------------------>
+	  
+	  <!-- TEHTÄVÄ 3 NÄKYVILLE -->
+	  <h3> Tehtävä 3 </h3>
+      <p> (& LT ) pienempi kuin ja (& GT ) suurempi kuin. </p>
+		  
+	  <!-- TEHTÄVÄ 3 KOODAUS ESILLE -->
+	  <div class="koodi varjo"><pre>
+<b> CSS-ohjeet </b>
+ 
+ .img{
+ margin: 10px;
+ height:80%;
+ float: left;
+ }
+ .clearfix::after {
+ content: "";
+ clear: both;
+ display: table;
+ }
+   
+<b> HTML liittäminen </b>
+  
+  &LTdiv class="laatikko Vtausta1 Tteksti1 variB clearfix">
+  &LTh3> Laatikko 2 &LT/h3>
+  &LTimg class="img" src="kirsikankukka.jpg">
+  &LTp> Leipäteksti &LT/p>
+  &LT/div>
+	  </pre></div>
+
+<!-- TEHTÄVÄ 3 ESIIN WWW SIVULLA-->
+	<div class="laatikko Vtausta1 Tteksti1 variB clearfix">
+	<h3> Laatikko 2 </h3>
+	<img class="img" src="kirsikankukka.jpg">
+	<p> veniam quis, (Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.) </p>
+	</div>
+	
+<!------------------------------------------------------------------- TEHTÄVÄ 4 ------------------------------------------------------------------------>
+	  
+	  <!-- TEHTÄVÄ 4 NÄKYVILLE -->
+	  <h3> Tehtävä 4 </h3>
+      <p> (& LT ) pienempi kuin ja (& GT ) suurempi kuin. </p>
+	
+	
+	  <!-- TEHTÄVÄ 4 KOODAUS ESILLE -->	  
+      <div class="koodi varjo"><pre> 
+	
+	<b>CSS-ohjeet</b>
+   
+    .pagination {
+    display: inline-block;
+    }
+    .pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+    .pagination a.active {
+    background-color: #00b3b3;
+    color: white;
+    border-radius: 5px;
+    }
+    .pagination a:hover:not(.active) {
+    background-color: #d4ffad;
+    border-radius: 5px;
+    }
+    .center{
+    text-align: center;
+    }
+	
+	<b>HTML-liittäminen</b>
+   
+   &LTdiv class="center">
+    &LTdiv class="pagination">
+    &LTa href="sivu6.html">&laquo;</a>
+    &LTa href="index.html" class="active">1</a>
+    &LTa href="sivu1.html">2</a>
+    &LTa href="sivu2.html">3</a>
+    &LTa href="sivu3.html">4</a>
+    &LTa href="sivu4.html">5</a>
+    &LTa href="sivu5.html">6</a>
+    &LTa href="sivu6.html">7</a>
+    &LTa href="sivu1.html">&raquo;</a>
+    &LT/div>
+   &LT/div>
+	
+	  </pre></div>
+
+<!------------------------------------------------------------------- TEHTÄVÄ 5 ------------------------------------------------------------------------>
+	  
+	  <!-- TEHTÄVÄ 5 NÄKYVILLE -->
+	  <h3> Tehtävä 5 </h3>
+      <p> (& LT ) pienempi kuin ja (& GT ) suurempi kuin. </p>
+		  
+	  <!-- TEHTÄVÄ 5 KOODAUS ESILLE -->	  
+      <div class="koodi varjo"><pre> 
+    
+   <b>CSS-ohjeet</b>
+	
+   .laatikko2{
+   background-image: url("kirsikankukka.jpg");
+   width: 427px;
+   height: 640px;
+   background-color: red;
+   opacity: 0.5;
+   padding: 10%;
+   margin: 1%;
+   }
+   .paallysteksti{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	color: black;
+	}
+   
+   <b>HTML-liittäminen</b>
+   
+    &LTdiv class="laatikko2">
+	 &LTdiv class="paallysteksti"><p> Teksti </p>
+	 &LT/div>
+	&LT/div>
+	
+	  </pre></div>
+
+<!-- TEHTÄVÄ 5 ESIIN WWW SIVULLA-->
+	<div class="laatikko2">
+	 <div class="paallysteksti"><p> Teksti </p>
+	 </div>
+	</div>
+<!------------------------------------------------------------------- TEHTÄVÄ 6 ------------------------------------------------------------------------>	  
+
+	  <!-- TEHTÄVÄ 6 NÄKYVILLE -->
+	  <h3> Tehtävä 6 </h3>
+      <p> (& LT ) pienempi kuin ja (& GT ) suurempi kuin. </p>
+		  
+	  <!-- TEHTÄVÄ 6 KOODAUS ESILLE -->	  
+      <div class="koodi varjo"><pre> Lisää tähän tehtävä 6 koodausta.
+	  </pre></div>
+
+<!-- TEHTÄVÄ 6 ESIIN WWW SIVULLA-->
+
+<!------------------------------------------------------------------- ------------------------------------------------------------------------>
+	  
+    </div>
+   </div> <!-- ÄLÄ HUKKAA TÄTÄ diviä -->
+   <div class="footer">
+     <p>Nevavesi Tuomo</p>
+   </div>
+ </body>
+</html>
