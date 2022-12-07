@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+  </style>
+  </head>
+  <body>
+
+   <div class="header">
+     <h1><a href="index.html"target="_self";> Aurinkokunta </h1> </a>
+   </div>
+
+   <div class="row">
+
+    <div class="col-3 col-s-3 menu">
+      <ul>
+       <a href="merkurius.html"target="_self";><li> Merkurius </li> </a>
+       <a href="venus.html"target="_self";><li> Venus </li> </a>
+       <a href="maa.html"target="_self";><li> Maa </li> </a>
+       <a href="mars.html"target="_self";><li> Mars </li> </a>
+	   <a href="jupiter.html"target="_self";><li> Jupiter </li> </a>
+	   <a href="saturnus.html"target="_self";><li> Saturnus </li> </a>
+	   <a href="uranus.html"target="_self";><li> Uranus </li> </a>
+	   <a href="neptunus.html"target="_self";><li> Neptunus </li> </a>
+      </ul>
+	  <div class="aside">
+       <!--<h2>  </h2>
+       <p>  </p>
+       <h2>  </h2>
+       <p>  </p>
+       <h2>  </h2>-->
+       <p> Aurinkokunta </p>
+	   <img src="aurinkokunta.jpg" width="460" height="345">
+     </div>
+    </div>
+
+    <div class="col-9 col-s-9">
+      <h1> Aurinkokunta </h1>
+      <p> Aurinkokunta on Auringon ja kaikkien Aurinkoa kiertävien kappaleiden, kuten planeettojen, kuiden, kääpiöplaneettojen, 
+	  asteroidien, meteoroidien, komeettojen ja transneptunisten kohteiden muodostama järjestelmä. </p>
+      <p> Lähde wikipedia. </p>
+	  <img class="varjo" src="aurinkokunta.jpg" width="460" height="345">
+    </div>
+   </div>
+
+   <div class="footer">
+     <p>This collection of beautiful and breathtaking photos is free for personal and commercial use.</p>
+   </div>
+
+ </body>
+</html>
